@@ -11,8 +11,9 @@ nav{
   color: #fff;
   padding-top: 15px;
 }
-img{
+.intestazione img{
   height: 200px;
+  border: 1px solid blue;
 }
 .line::after,.line::before{
   content: "";
@@ -22,4 +23,8 @@ img{
   display: inline-block;
   vertical-align: middle;
   margin:  0 20px;
+}
+.content [class*="col-"]{
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
